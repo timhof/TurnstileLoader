@@ -1,0 +1,33 @@
+#surefire
+#Sat Dec 24 22:21:30 EST 2011
+testClassesDirectory=C\:\\Users\\timothyi\\committed\\mta_file_loader\\target\\test-classes
+classPathUrl.4=C\:\\Users\\timothyi\\.m2\\repository\\org\\eclipse\\persistence\\javax.persistence\\2.0.0\\javax.persistence-2.0.0.jar
+classPathUrl.3=C\:\\Users\\timothyi\\.m2\\repository\\org\\eclipse\\persistence\\eclipselink\\2.3.1\\eclipselink-2.3.1.jar
+classPathUrl.2=C\:\\Users\\timothyi\\.m2\\repository\\junit\\junit\\4.4\\junit-4.4.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\Users\\timothyi\\committed\\mta_file_loader\\target\\classes
+reportsDirectory=C\:\\Users\\timothyi\\committed\\mta_file_loader\\target\\surefire-reports
+classPathUrl.0=C\:\\Users\\timothyi\\committed\\mta_file_loader\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\timothyi\\committed\\mta_file_loader\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\timothyi\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\timothyi\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=C\:\\Users\\timothyi\\committed\\mta_file_loader\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.8=C\:\\Users\\timothyi\\.m2\\repository\\org\\sqlite\\sqlite-driver\\0.56\\sqlite-driver-0.56.jar
+classPathUrl.7=C\:\\Users\\timothyi\\.m2\\repository\\com\\google\\code\\gson\\gson\\1.7.1\\gson-1.7.1.jar
+childDelegation=false
+classPathUrl.6=C\:\\Users\\timothyi\\.m2\\repository\\net\\sf\\opencsv\\opencsv\\2.0\\opencsv-2.0.jar
+classPathUrl.5=C\:\\Users\\timothyi\\.m2\\repository\\org\\apache\\commons\\commons-lang3\\3.1\\commons-lang3-3.1.jar

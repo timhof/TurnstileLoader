@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+    <persistence-unit name="default">
+    	 <class>com.timothyimhof.model.MTAFile</class>
+    	 <class>com.timothyimhof.model.Borough</class>
+    	 <class>com.timothyimhof.model.Station</class>
+    	 <class>com.timothyimhof.model.Remote</class>
+    	 <class>com.timothyimhof.model.Turnstile</class>
+    	 <class>com.timothyimhof.model.TurnstileRegister</class>
+    	 
+    	 <class>com.timothyimhof.model.Line</class>
+    	 <class>com.timothyimhof.model.Division</class>
+    	 <class>com.timothyimhof.model.Route</class>
+    	 <class>com.timothyimhof.model.Entrance</class>
+    	 <class>com.timothyimhof.model.StationAlternateName</class>
+    	 
+    	 <class>com.timothyimhof.model.FareRegister</class>
+    	 <class>com.timothyimhof.model.FareType</class>
+    	 
+    	 <class>com.timothyimhof.model.StationRegister</class>
+    	 <class>com.timothyimhof.model.Week</class>
+        <properties>
+            <property name="eclipselink.logging.level" value="FINE"/>
+            <property name="eclipselink.logging.file" value="output.log"/>
+           	<property name="eclipselink.jdbc.driver" value="org.sqlite.JDBC"/>  <!-- update to match database-->
+            <property name="eclipselink.jdbc.url" value="jdbc:sqlite:C:/Users/timothyi/mta/database/development.sqlite3"/> <!-- update to match database; places db in user's home folder-->
+            <property name="eclipselink.jdbc.password" value=""/> <!-- update to match database-->
+            <property name="eclipselink.jdbc.user" value="sa"/> <!-- update to match database-->
+	        <property name="eclipselink.ddl-generation" value="create-tables"/>
+	        <property name="eclipselink.application-location" value="."/>
+	        <property name="eclipselink.create-ddl-jdbc-file-name" value="eclipselink-meercat-create.sql"/>
+	        <property name="eclipselink.drop-ddl-jdbc-file-name" value="eclipselink-meercat-drop.sql"/>
+			<property name="eclipselink.ddl-generation.output-mode" value="database"/>
+			<property name="eclipselink.cache.shared.default" value="false"/>
+			<property name="eclipselink.cache.type.default" value="SoftWeak"/>
+			<property name="eclipselink.jdbc.batch-writing" value="Oracle-JDBC"/> 
+			<property name="eclipselink.temporal.mutable" value="true"/>
+    	</properties>
+    </persistence-unit>
+</persistence>
